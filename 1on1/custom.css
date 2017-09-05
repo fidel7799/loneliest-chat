@@ -1,0 +1,39 @@
+body {
+  background-color: '#f6f8fa';
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: white;
+}
+.back-1{
+  background-image: url('https://static.pexels.com/photos/8486/water-rain-raindrops-drops.jpg');
+}
+.back-2{
+  background-image: url('http://www.photofurl.com/wp-content/uploads/2008/11/beautiful_mountain_wallpaper.jpg');
+}
+.back-3{
+  background-image: url('http://www.skringers.com/wp-content/uploads/Free-Desktop-Wallpaper-Beach-Scenes-Sunny-Beach.jpg');
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+.table-container {
+  max-width: 600px;
+  background-color: gray;
+}
+.my-table {
+  width: 500px;
+  border: 1px solid black;
+
+}
+.temperature-container{
+  font-size: 20px;
+
+}
+.temperature-container > td {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+th {
+    height: 50px;
+}

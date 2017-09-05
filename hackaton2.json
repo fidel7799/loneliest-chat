@@ -1,0 +1,157 @@
+menu = {
+  sections: [
+    {
+      name: 'Tacos',
+      items: [{
+        name: 'AL PASTOR',
+        description:'pork, achiote, pineapple',
+        price:  3.50
+      },
+      {
+        name: 'CARNITAS',
+        description:'pork, orange, cinnamon',
+        price:  '5.00'
+      },
+      {
+        name: 'CHORIZO',
+        description:'pork, paprika, cumin, garlic',
+        price:  '3.50'
+      },
+      {
+        name: 'ASADA',
+        description:'steak, citrus, chile de arbol',
+        price:  '3.50'
+      },
+      {
+        name: 'BARBACOA',
+        description:'beef, cumin, pasilla negra',
+        price:  '3.50'
+      },
+      {
+        name: 'LENGUA',
+        description:'beef tongue, cerveza victoria',
+        price:  '3.50'
+      },
+      {
+        name: 'POLLO',
+        description:'chicken, scallion, cilantro',
+        price:  '3.50'
+      },
+      {
+        name: 'CAMARON',
+        description:'shrimp, red ‘mole’, slaw',
+        price:  '5.00'
+      },
+      {
+        name: 'HUITLACOCHE',
+        description:'corn ‘truffle’, corn, scallion',
+        price:  '3.50'
+      },
+      {
+        name: 'RAJAS',
+        description:'poblano, onion, crema, cotija',
+        price:  '3.50'
+      },
+      {
+        name: 'CHAPULINES',
+        description:'grasshoppers, avocado, tajin',
+        price:  '3.50'
+      }
+      ]
+    },
+    {
+      name: 'SIDES / ANTOJITOS',
+      items: [{
+        name: 'TOTOPOS',
+        description:'pork, achiote, pineapple',
+        price:  '5.00'
+      },
+      {
+        name: 'ELOTE',
+        description:'charred corn, cilantrojalapeno
+crema, cotija',
+        price:  '5.00'
+      },
+      {
+        name: 'QUINOA',
+        description:'jicama, corn, scallion, chile,
+nopal dressing',
+        price:  '6.50'
+      }]
+    },
+    {
+      name: 'BEER / CERVEZA',
+      items: [{
+        name: 'CORONA EXTRA',
+        price:  '7.00'
+      },
+      {
+        name: 'CORONA LIGHT',
+        price:  '6.00'
+      },
+      {
+        name: 'NEGRA MODELO',
+        price:  '6.00'
+      },
+      {
+        name: 'PACIFICO',
+        price:  '6.00'
+      },
+      {
+        name: 'TECATE',
+        price:  '5.00'
+      },
+      {
+        name: 'VICTORIA',
+        price:  '6.00'
+      }]
+    },
+    {
+      name: 'BREAKFAST',
+      description:'EVERYDAY 8 AM – 11:30 AM',
+      items: [{
+        name: 'HUEVOS A LA MEXICANA ',
+        price:  '5.00'
+      },
+      {
+        name: 'QUESADILLAS DE EPAZOTE ',
+        price:  '5.00'
+      },
+      {
+        name: 'TOSTADA DE AGUACATE ',
+        price:  '5.00'
+      },
+      {
+        name: 'CHILAQUILES',
+        price:  '6.00'
+      },
+      {
+        name: 'TORTILLA DE AGUACATE',
+        price:  '6.00'
+      }]
+    },
+    {
+      name: 'COFFEE & TEA',
+      items: [{
+        name: 'ESPRESSO ',
+        price:  {
+          shot: 3,
+          cortado: 4,
+          latte: 5
+        }
+      },
+      {
+        name: 'LA ENDULZADA',
+        price:  '5.00'
+      },
+      {
+        name: 'GREEN TEA',
+        price:  '3.00'
+      },
+      {
+        name: 'ORANGE JUICE',
+        price:  '3.00'
+      }]
+    }
+  ]
+}
